@@ -1,0 +1,8 @@
+{
+  "name": "DataMind — AI-Powered Natural Language Data Analytics",
+  "description": "Turn your data into answers. Ask questions in plain English, explore meaningful insights, and inspect SQL and supporting evidence with full transparency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
