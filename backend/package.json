@@ -1,0 +1,20 @@
+{
+  "name": "datamind-backend",
+  "version": "1.0.0",
+  "description": "Backend API for PS1 DataMind — Talk to Your Data",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "data:load": "node scripts/loadEnergyData.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "snowflake-sdk": "^1.12.0"
+  }
+}

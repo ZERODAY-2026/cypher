@@ -1,0 +1,661 @@
+{
+  "totalRows": 19494,
+  "totalColumns": 130,
+  "minYear": 1700,
+  "maxYear": 2025,
+  "uniqueCountriesCount": 260,
+  "headers": [
+    "country",
+    "year",
+    "iso_code",
+    "population",
+    "gdp",
+    "bioenergy_electricity_per_capita_kwh",
+    "bioenergy_electricity_share_pct",
+    "bioenergy_electricity_twh",
+    "biofuels_energy_annual_change_pct",
+    "biofuels_energy_annual_change_twh",
+    "biofuels_energy_per_capita_kwh",
+    "biofuels_energy_share_pct",
+    "biofuels_energy_twh",
+    "coal_electricity_per_capita_kwh",
+    "coal_electricity_share_pct",
+    "coal_electricity_twh",
+    "coal_energy_annual_change_pct",
+    "coal_energy_annual_change_twh",
+    "coal_energy_per_capita_kwh",
+    "coal_energy_share_pct",
+    "coal_energy_twh",
+    "coal_production_annual_change_pct",
+    "coal_production_annual_change_twh",
+    "coal_production_per_capita_kwh",
+    "coal_production_twh",
+    "electricity_carbon_intensity_gco2eq_per_kwh",
+    "electricity_demand_per_capita_kwh",
+    "electricity_demand_twh",
+    "electricity_emissions_mtco2eq",
+    "electricity_generation_per_capita_kwh",
+    "electricity_generation_twh",
+    "electricity_net_imports_share_of_demand_pct",
+    "electricity_net_imports_twh",
+    "electricity_share_of_total_energy_pct",
+    "fossil_fuels_electricity_per_capita_kwh",
+    "fossil_fuels_electricity_share_pct",
+    "fossil_fuels_electricity_twh",
+    "fossil_fuels_energy_annual_change_pct",
+    "fossil_fuels_energy_annual_change_twh",
+    "fossil_fuels_energy_per_capita_kwh",
+    "fossil_fuels_energy_share_pct",
+    "fossil_fuels_energy_twh",
+    "gas_electricity_per_capita_kwh",
+    "gas_electricity_share_pct",
+    "gas_electricity_twh",
+    "gas_energy_annual_change_pct",
+    "gas_energy_annual_change_twh",
+    "gas_energy_per_capita_kwh",
+    "gas_energy_share_pct",
+    "gas_energy_twh",
+    "gas_production_annual_change_pct",
+    "gas_production_annual_change_twh",
+    "gas_production_per_capita_kwh",
+    "gas_production_twh",
+    "hydro_electricity_per_capita_kwh",
+    "hydro_electricity_share_pct",
+    "hydro_electricity_twh",
+    "hydro_energy_annual_change_pct",
+    "hydro_energy_annual_change_twh",
+    "hydro_energy_per_capita_kwh",
+    "hydro_energy_share_pct",
+    "hydro_energy_twh",
+    "low_carbon_electricity_per_capita_kwh",
+    "low_carbon_electricity_share_pct",
+    "low_carbon_electricity_twh",
+    "low_carbon_energy_annual_change_pct",
+    "low_carbon_energy_annual_change_twh",
+    "low_carbon_energy_per_capita_kwh",
+    "low_carbon_energy_share_pct",
+    "low_carbon_energy_twh",
+    "nuclear_electricity_per_capita_kwh",
+    "nuclear_electricity_share_pct",
+    "nuclear_electricity_twh",
+    "nuclear_energy_annual_change_pct",
+    "nuclear_energy_annual_change_twh",
+    "nuclear_energy_per_capita_kwh",
+    "nuclear_energy_share_pct",
+    "nuclear_energy_twh",
+    "oil_electricity_per_capita_kwh",
+    "oil_electricity_share_pct",
+    "oil_electricity_twh",
+    "oil_energy_annual_change_pct",
+    "oil_energy_annual_change_twh",
+    "oil_energy_per_capita_kwh",
+    "oil_energy_share_pct",
+    "oil_energy_twh",
+    "oil_production_annual_change_pct",
+    "oil_production_annual_change_twh",
+    "oil_production_per_capita_kwh",
+    "oil_production_twh",
+    "other_renewables_excluding_bioenergy_electricity_per_capita_kwh",
+    "other_renewables_excluding_bioenergy_electricity_share_pct",
+    "other_renewables_excluding_bioenergy_electricity_twh",
+    "other_renewables_including_bioenergy_electricity_per_capita_kwh",
+    "other_renewables_including_bioenergy_electricity_share_pct",
+    "other_renewables_including_bioenergy_electricity_twh",
+    "other_renewables_including_bioenergy_energy_annual_change_pct",
+    "other_renewables_including_bioenergy_energy_annual_change_twh",
+    "other_renewables_including_bioenergy_energy_per_capita_kwh",
+    "other_renewables_including_bioenergy_energy_share_pct",
+    "other_renewables_including_bioenergy_energy_twh",
+    "renewables_electricity_per_capita_kwh",
+    "renewables_electricity_share_pct",
+    "renewables_electricity_twh",
+    "renewables_energy_annual_change_pct",
+    "renewables_energy_annual_change_twh",
+    "renewables_energy_per_capita_kwh",
+    "renewables_energy_share_pct",
+    "renewables_energy_twh",
+    "solar_electricity_per_capita_kwh",
+    "solar_electricity_share_pct",
+    "solar_electricity_twh",
+    "solar_energy_annual_change_pct",
+    "solar_energy_annual_change_twh",
+    "solar_energy_per_capita_kwh",
+    "solar_energy_share_pct",
+    "solar_energy_twh",
+    "total_energy_annual_change_pct",
+    "total_energy_annual_change_twh",
+    "total_energy_per_capita_kwh",
+    "total_energy_per_gdp_kwh_per_dollar",
+    "total_energy_twh",
+    "wind_electricity_per_capita_kwh",
+    "wind_electricity_share_pct",
+    "wind_electricity_twh",
+    "wind_energy_annual_change_pct",
+    "wind_energy_annual_change_twh",
+    "wind_energy_per_capita_kwh",
+    "wind_energy_share_pct",
+    "wind_energy_twh"
+  ],
+  "inferredTypes": {
+    "country": {
+      "type": "VARCHAR(255)",
+      "nonNullCount": 19494
+    },
+    "year": {
+      "type": "NUMBER(38,0)",
+      "nonNullCount": 19494
+    },
+    "iso_code": {
+      "type": "VARCHAR(255)",
+      "nonNullCount": 17480
+    },
+    "population": {
+      "type": "NUMBER(38,0)",
+      "nonNullCount": 18319
+    },
+    "gdp": {
+      "type": "NUMBER(38,0)",
+      "nonNullCount": 11834
+    },
+    "bioenergy_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6115
+    },
+    "bioenergy_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 6411
+    },
+    "bioenergy_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 6437
+    },
+    "biofuels_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 1891
+    },
+    "biofuels_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 2975
+    },
+    "biofuels_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 2674
+    },
+    "biofuels_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 3069
+    },
+    "biofuels_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 3069
+    },
+    "coal_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6651
+    },
+    "coal_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7275
+    },
+    "coal_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 7301
+    },
+    "coal_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5198
+    },
+    "coal_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5318
+    },
+    "coal_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 4947
+    },
+    "coal_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5435
+    },
+    "coal_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5435
+    },
+    "coal_production_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 8081
+    },
+    "coal_production_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 15904
+    },
+    "coal_production_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 15757
+    },
+    "coal_production_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 16162
+    },
+    "electricity_carbon_intensity_gco2eq_per_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6332
+    },
+    "electricity_demand_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6056
+    },
+    "electricity_demand_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 6378
+    },
+    "electricity_emissions_mtco2eq": {
+      "type": "FLOAT",
+      "nonNullCount": 6028
+    },
+    "electricity_generation_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 7221
+    },
+    "electricity_generation_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 7871
+    },
+    "electricity_net_imports_share_of_demand_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 6032
+    },
+    "electricity_net_imports_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 6126
+    },
+    "electricity_share_of_total_energy_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 4022
+    },
+    "fossil_fuels_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6691
+    },
+    "fossil_fuels_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7315
+    },
+    "fossil_fuels_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 7341
+    },
+    "fossil_fuels_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 4858
+    },
+    "fossil_fuels_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 4858
+    },
+    "fossil_fuels_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 4487
+    },
+    "fossil_fuels_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 4975
+    },
+    "fossil_fuels_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 4975
+    },
+    "gas_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6523
+    },
+    "gas_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7147
+    },
+    "gas_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 7173
+    },
+    "gas_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5104
+    },
+    "gas_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5118
+    },
+    "gas_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 4746
+    },
+    "gas_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5234
+    },
+    "gas_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5234
+    },
+    "gas_production_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 6839
+    },
+    "gas_production_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 15942
+    },
+    "gas_production_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 15697
+    },
+    "gas_production_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 16190
+    },
+    "hydro_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 8549
+    },
+    "hydro_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7720
+    },
+    "hydro_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 9359
+    },
+    "hydro_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5028
+    },
+    "hydro_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5618
+    },
+    "hydro_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5246
+    },
+    "hydro_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "hydro_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "low_carbon_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 7701
+    },
+    "low_carbon_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7605
+    },
+    "low_carbon_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 8453
+    },
+    "low_carbon_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5253
+    },
+    "low_carbon_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5618
+    },
+    "low_carbon_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5246
+    },
+    "low_carbon_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "low_carbon_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "nuclear_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 9151
+    },
+    "nuclear_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7673
+    },
+    "nuclear_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 9951
+    },
+    "nuclear_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 2515
+    },
+    "nuclear_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 11639
+    },
+    "nuclear_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 11350
+    },
+    "nuclear_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 11446
+    },
+    "nuclear_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 11897
+    },
+    "oil_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6630
+    },
+    "oil_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7254
+    },
+    "oil_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 7280
+    },
+    "oil_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5618
+    },
+    "oil_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5618
+    },
+    "oil_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5246
+    },
+    "oil_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "oil_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "oil_production_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 8132
+    },
+    "oil_production_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 16619
+    },
+    "oil_production_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 16273
+    },
+    "oil_production_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 16867
+    },
+    "other_renewables_excluding_bioenergy_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 6128
+    },
+    "other_renewables_excluding_bioenergy_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 6424
+    },
+    "other_renewables_excluding_bioenergy_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 6450
+    },
+    "other_renewables_including_bioenergy_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 8006
+    },
+    "other_renewables_including_bioenergy_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7672
+    },
+    "other_renewables_including_bioenergy_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 8780
+    },
+    "other_renewables_including_bioenergy_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 3573
+    },
+    "other_renewables_including_bioenergy_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5624
+    },
+    "other_renewables_including_bioenergy_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5252
+    },
+    "other_renewables_including_bioenergy_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "other_renewables_including_bioenergy_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5740
+    },
+    "renewables_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 7701
+    },
+    "renewables_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7615
+    },
+    "renewables_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 8463
+    },
+    "renewables_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5246
+    },
+    "renewables_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5618
+    },
+    "renewables_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5246
+    },
+    "renewables_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "renewables_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "solar_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 7774
+    },
+    "solar_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7627
+    },
+    "solar_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 8536
+    },
+    "solar_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 2309
+    },
+    "solar_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5624
+    },
+    "solar_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5252
+    },
+    "solar_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "solar_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5740
+    },
+    "total_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 11415
+    },
+    "total_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 11587
+    },
+    "total_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 11281
+    },
+    "total_energy_per_gdp_kwh_per_dollar": {
+      "type": "FLOAT",
+      "nonNullCount": 7884
+    },
+    "total_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 11848
+    },
+    "wind_electricity_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 7615
+    },
+    "wind_electricity_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 7455
+    },
+    "wind_electricity_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 8383
+    },
+    "wind_energy_annual_change_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 2577
+    },
+    "wind_energy_annual_change_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5624
+    },
+    "wind_energy_per_capita_kwh": {
+      "type": "FLOAT",
+      "nonNullCount": 5252
+    },
+    "wind_energy_share_pct": {
+      "type": "FLOAT",
+      "nonNullCount": 5734
+    },
+    "wind_energy_twh": {
+      "type": "FLOAT",
+      "nonNullCount": 5740
+    }
+  }
+}
